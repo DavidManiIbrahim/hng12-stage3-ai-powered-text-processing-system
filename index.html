@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Tesxt Processing Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI TEXT PROCESSSOR</h1>
+        <div class="chat-container">
+            <div id="output-area"></div>
+            <div class="input-area"></div>
+            <textarea name="" id="" cols="30" rows="10" class="input-text"></textarea>
+            <button id="send-btn">Submit</button>
+        </div>
+        <div class="controls">
+            <button id="summarize-btn" disabled>Summerize</button>
+
+            <select name="" id="" id="language-select">
+                <option value="en">English</option>
+                <option value="pt">Portuguese</option>
+                <option value="es">Spanish</option>
+                <option value="ru">Russian</option>
+                <option value="tr">Turkish</option>
+                <option value="fr">French</option>
+            </select>
+            <button id="translate-btn">Translate</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
